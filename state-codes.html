@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Scotland State Codes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Police Scotland Info</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="state-codes.html" class="active">State Codes</a></li>
+                <li><a href="procedures.html">Procedures</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Police Scotland State Codes</h1>
+            <p>Comprehensive guide to state codes and incident classifications used by Police Scotland</p>
+        </section>
+
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search state codes by code or description...">
+                <button onclick="searchCodes()">Search</button>
+            </div>
+            <div id="searchResults"></div>
+        </section>
+
+        <section class="codes-section">
+            <h2>State Code Categories</h2>
+            
+            <div class="code-category">
+                <h3>Crime Classification Codes</h3>
+                <table class="codes-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">01</td>
+                            <td>Violent Crime - Homicide</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">02</td>
+                            <td>Violent Crime - Assault</td>
+                            <td><span class="badge warning">Moderate</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">03</td>
+                            <td>Sexual Offence</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">04</td>
+                            <td>Robbery</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">05</td>
+                            <td>Burglary - Residential</td>
+                            <td><span class="badge warning">Moderate</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">06</td>
+                            <td>Burglary - Commercial</td>
+                            <td><span class="badge warning">Moderate</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">07</td>
+                            <td>Theft - Vehicle</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">08</td>
+                            <td>Theft - Other</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="code-category">
+                <h3>Drug-Related Codes</h3>
+                <table class="codes-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">11</td>
+                            <td>Drug Possession - Class A</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">12</td>
+                            <td>Drug Possession - Class B</td>
+                            <td><span class="badge warning">Moderate</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">13</td>
+                            <td>Drug Possession - Class C</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">14</td>
+                            <td>Drug Supply/Trafficking</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">15</td>
+                            <td>Drug Manufacturing</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="code-category">
+                <h3>Traffic and Vehicle Codes</h3>
+                <table class="codes-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">21</td>
+                            <td>Speeding Violation</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">22</td>
+                            <td>Reckless Driving</td>
+                            <td><span class="badge warning">Moderate</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">23</td>
+                            <td>Driving Under Influence</td>
+                            <td><span class="badge danger">Serious</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">24</td>
+                            <td>Vehicle License Plate Violation</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">25</td>
+                            <td>Motor Vehicle Accident</td>
+                            <td><span class="badge info">Minor</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="code-category">
+                <h3>Administrative Codes</h3>
+                <table class="codes-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">31</td>
+                            <td>Welfare Check</td>
+                            <td><span class="badge success">Administrative</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">32</td>
+                            <td>Lost and Found Property</td>
+                            <td><span class="badge success">Administrative</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">33</td>
+                            <td>Community Engagement</td>
+                            <td><span class="badge success">Administrative</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">34</td>
+                            <td>Traffic Control</td>
+                            <td><span class="badge success">Administrative</span></td>
+                        </tr>
+                        <tr>
+                            <td class="code">35</td>
+                            <td>Accident Investigation</td>
+                            <td><span class="badge success">Administrative</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Police Scotland Information Hub. All rights reserved.</p>
+            <p>This is an educational resource. For official Police Scotland information, visit <a href="https://www.scotland.police.uk" target="_blank">scotland.police.uk</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

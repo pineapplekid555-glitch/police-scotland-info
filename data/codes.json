@@ -1,0 +1,148 @@
+{
+  "crimeClassificationCodes": [
+    {
+      "code": "01",
+      "description": "Violent Crime - Homicide",
+      "category": "Serious",
+      "details": "Unlawful killing of another person"
+    },
+    {
+      "code": "02",
+      "description": "Violent Crime - Assault",
+      "category": "Moderate",
+      "details": "Attack causing physical injury"
+    },
+    {
+      "code": "03",
+      "description": "Sexual Offence",
+      "category": "Serious",
+      "details": "Sexual assault or abuse"
+    },
+    {
+      "code": "04",
+      "description": "Robbery",
+      "category": "Serious",
+      "details": "Theft using force or intimidation"
+    },
+    {
+      "code": "05",
+      "description": "Burglary - Residential",
+      "category": "Moderate",
+      "details": "Unauthorized entry into home for theft"
+    },
+    {
+      "code": "06",
+      "description": "Burglary - Commercial",
+      "category": "Moderate",
+      "details": "Unauthorized entry into business for theft"
+    },
+    {
+      "code": "07",
+      "description": "Theft - Vehicle",
+      "category": "Minor",
+      "details": "Unauthorized taking of motor vehicle"
+    },
+    {
+      "code": "08",
+      "description": "Theft - Other",
+      "category": "Minor",
+      "details": "Unauthorized taking of property (non-vehicle)"
+    }
+  ],
+  "drugRelatedCodes": [
+    {
+      "code": "11",
+      "description": "Drug Possession - Class A",
+      "category": "Serious",
+      "details": "Possession of heroin, cocaine, LSD, etc."
+    },
+    {
+      "code": "12",
+      "description": "Drug Possession - Class B",
+      "category": "Moderate",
+      "details": "Possession of amphetamine, cannabis, etc."
+    },
+    {
+      "code": "13",
+      "description": "Drug Possession - Class C",
+      "category": "Minor",
+      "details": "Possession of anabolic steroids, etc."
+    },
+    {
+      "code": "14",
+      "description": "Drug Supply/Trafficking",
+      "category": "Serious",
+      "details": "Distribution or supply of controlled substances"
+    },
+    {
+      "code": "15",
+      "description": "Drug Manufacturing",
+      "category": "Serious",
+      "details": "Production of illegal drugs"
+    }
+  ],
+  "trafficAndVehicleCodes": [
+    {
+      "code": "21",
+      "description": "Speeding Violation",
+      "category": "Minor",
+      "details": "Driving above speed limit"
+    },
+    {
+      "code": "22",
+      "description": "Reckless Driving",
+      "category": "Moderate",
+      "details": "Driving with disregard for safety"
+    },
+    {
+      "code": "23",
+      "description": "Driving Under Influence",
+      "category": "Serious",
+      "details": "Operating vehicle while impaired by alcohol/drugs"
+    },
+    {
+      "code": "24",
+      "description": "Vehicle License Plate Violation",
+      "category": "Minor",
+      "details": "Missing, obscured, or invalid license plate"
+    },
+    {
+      "code": "25",
+      "description": "Motor Vehicle Accident",
+      "category": "Minor",
+      "details": "Traffic collision requiring investigation"
+    }
+  ],
+  "administrativeCodes": [
+    {
+      "code": "31",
+      "description": "Welfare Check",
+      "category": "Administrative",
+      "details": "Checking on person's wellbeing"
+    },
+    {
+      "code": "32",
+      "description": "Lost and Found Property",
+      "category": "Administrative",
+      "details": "Handling lost or found items"
+    },
+    {
+      "code": "33",
+      "description": "Community Engagement",
+      "category": "Administrative",
+      "details": "Police involvement in community events"
+    },
+    {
+      "code": "34",
+      "description": "Traffic Control",
+      "category": "Administrative",
+      "details": "Managing traffic at events or incidents"
+    },
+    {
+      "code": "35",
+      "description": "Accident Investigation",
+      "category": "Administrative",
+      "details": "Investigation of traffic accidents"
+    }
+  ]
+}
